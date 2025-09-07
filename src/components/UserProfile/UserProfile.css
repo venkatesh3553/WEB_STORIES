@@ -1,0 +1,127 @@
+/* === User Profile Container === */
+.pro-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* === Stories List === */
+.pro-ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* === Individual Story Card === */
+.pro-li {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.07);
+}
+
+.pro-li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* === Story Title === */
+.pro-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+  
+}
+
+/* === Story Text === */
+.pro-storie {
+  font-size: 16px;
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+/* === Time + Likes Container === */
+.pro-likes-timer-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+    gap: 10px;
+  margin-bottom: 12px;
+}
+
+/* === Time === */
+.pro-time {
+  font-size: 14px;
+  color: #718096;
+  font-style: italic;
+}
+
+/* === Like Icon + Count === */
+.pro-like-icon {
+  color: #e53e3e; /* red like icon */
+  font-size: 22px;
+  margin-right: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.pro-like-icon:hover {
+  transform: scale(1.2);
+}
+
+/* === Remove Button === */
+.pro-remove-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #e53e3e;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.pro-remove-btn:hover {
+  background: #c53030;
+  transform: scale(1.05);
+}
+
+.pro-like-container {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  color: #c53030;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.like-container:hover {
+  color: #c53030;
+}
+/* Loader */
+.loader {
+  border: 5px solid #f3f3f3;       
+  border-top: 5px solid #4CAF50;   
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 20px auto;               
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}

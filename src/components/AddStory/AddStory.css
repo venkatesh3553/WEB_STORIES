@@ -1,0 +1,74 @@
+/* Container background */
+.as-head {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin: 20px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Input field */
+.as-iinput {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 15px;
+  margin: 10px auto;
+  display: block;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.as-iinput:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Textarea */
+.as-textarea {
+  width: 100%;
+  max-width: 600px;
+  padding: 12px 15px;
+  margin: 10px auto;
+  display: block;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 15px;
+  font-family: inherit;
+  resize: vertical;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.as-textarea:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* Button */
+.as-post-storie-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.as-post-storie-btn:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.as-post-storie-btn:active {
+  transform: scale(0.98);
+}
